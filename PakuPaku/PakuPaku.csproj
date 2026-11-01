@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.12" />
+    <PackageReference Include="Raylib-cs" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Assets/spritesheet.png" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Assets/Audio/death.wav" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Assets/Audio/eat_dot.wav" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Assets/Audio/eat_ghost.wav" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Assets/Audio/fright.wav" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Assets/Audio/siren.wav" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Assets/Audio/start.wav" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  
+</Project>
